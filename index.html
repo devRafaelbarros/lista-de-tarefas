@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas | Rafael Barros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Lista de Tarefas</h1>
+        <p class="contador" id="contador"></p>
+
+        <form class="form" id="form-tarefa">
+            <input type="text" id="nova-tarefa" placeholder="Digite uma tarefa..." maxlength="80" required>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul id="lista"></ul>
+        <p class="vazio" id="vazio">Nenhuma tarefa por aqui. Adicione a primeira!</p>
+
+        <button class="limpar" id="limpar">Limpar concluídas</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
